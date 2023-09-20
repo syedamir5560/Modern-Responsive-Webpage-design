@@ -1,38 +1,56 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: fantasy;
 }
 
-html , body{
-            width: 100%;
-            height: 100%;
+html,
+body {
+    width: 100%;
+    height: 100%;
 }
 
-.main{
+.main {
     width: 100%;
     min-height: 100vh;
     background-color: rgb(213, 184, 145);
 }
 
-.top{
+.top {
     width: 100%;
     min-height: 60vh;
     background-image: url(https://images.unsplash.com/photo-1596275281743-e7399c7bdfa9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1924&q=80);
     background-position: center;
     background-size: cover;
-    
+
 }
 
-.overlay{
+.overlay {
     width: 100%;
     min-height: inherit;
     background-color: rgba(0, 0, 0, 0.328);
     position: relative;
 }
 
-.text{
+
+nav {
+    display: flex;
+    gap: 150px;
+    justify-content: end;
+    margin-right: 10px;
+    cursor: pointer;
+
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.text {
     position: absolute;
     width: 100%;
     padding: 0 10vw;
@@ -45,89 +63,90 @@ html , body{
 
 }
 
-.textright{
+.textright {
     display: flex;
     width: 60%;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
-.textright i{
+.textright i {
     color: white;
     cursor: pointer;
-    
-    
+
+
 }
 
 .textright p {
     font-size: 15px;
     width: 40%;
-    
+
 }
 
 
-.text h1{
+.text h1 {
     font-size: 5vw;
     color: rgb(248, 242, 242);
     font-weight: 500;
 }
 
-.bottom{
+.bottom {
     width: 100%;
     min-height: 40vh;
     background-color: rgb(143, 101, 101);
     display: flex;
 }
 
-.bottom1{
+.bottom1 {
     padding: 30px;
     width: 25%;
-   min-height: inherit;
+    min-height: inherit;
     background-color: white;
 }
-.bottom1 p{
+
+.bottom1 p {
     font-size: 15px;
     margin-top: 10px;
 }
 
-.bottom1 h3{
-    font-weight: 750    ;
-}
-
-.bottom2{
-    width: 25%;
-   min-height: inherit;
-   background-image: url(https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
-   background-size: cover;
-   background-position: center;
-}
-
-.bottom3{
-    width: 20%;
-    min-height: inherit;
-    background-color:rgb(13, 128, 9);
-}
-
-.b3top{
-    width: 100%;
-   min-height: 20vh;
-   background-color:orange;
-   padding: 20px;
-   color: white;
-}
-
-.b3top p{
-    font-size: 15px;
-    margin-top: 5px;
-    
-}
-
-.b3top h3{
+.bottom1 h3 {
     font-weight: 750;
 }
 
-.b3bottom{
+.bottom2 {
+    width: 25%;
+    min-height: inherit;
+    background-image: url(https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+.bottom3 {
+    width: 20%;
+    min-height: inherit;
+    background-color: rgb(13, 128, 9);
+}
+
+.b3top {
+    width: 100%;
+    min-height: 20vh;
+    background-color: orange;
+    padding: 20px;
+    color: white;
+}
+
+.b3top p {
+    font-size: 15px;
+    margin-top: 5px;
+
+}
+
+.b3top h3 {
+    font-weight: 750;
+}
+
+.b3bottom {
     width: 100%;
     min-height: 20vh;
     background-image: url(https://images.unsplash.com/photo-1505832018823-50331d70d237?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2108&q=80);
@@ -136,24 +155,24 @@ html , body{
 }
 
 
-.bottom4{
+.bottom4 {
     width: 30%;
-  min-height: inherit;
-   background-color:#444;
-   color:white;
-   padding: 30px;
+    min-height: inherit;
+    background-color: #444;
+    color: white;
+    padding: 30px;
 }
 
-.ntf{
+.ntf {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
     justify-content: center;
 }
 
-.ntf #photo{
+.ntf #photo {
     width: 30px;
-    height:30px;
+    height: 30px;
     background-color: red;
     background-image: url(https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
     background-position: center;
@@ -162,7 +181,7 @@ html , body{
     margin-right: 10px;
 }
 
-.ntf p{
+.ntf p {
     width: 90%;
     font-size: 14px;
 }
@@ -177,4 +196,3 @@ html , body{
     background-size: cover;
     background-position: c;
 }
-

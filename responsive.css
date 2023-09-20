@@ -42,4 +42,14 @@
         width: 100%;
     }
  
+    nav{
+        gap:50px;
+       
+    }
+    nav a{
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
 }
