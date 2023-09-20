@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Gilroy";
+    font-family: fantasy;
 }
 
 html , body{
@@ -81,10 +81,18 @@ html , body{
 }
 
 .bottom1{
-    
+    padding: 30px;
     width: 25%;
     height: 100%;
     background-color: white;
+}
+.bottom1 p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.bottom1 h3{
+    font-weight: 750    ;
 }
 
 .bottom2{
@@ -105,6 +113,18 @@ html , body{
     width: 100%;
     height: 50%;
    background-color:orange;
+   padding: 20px;
+   color: white;
+}
+
+.b3top p{
+    font-size: 15px;
+    margin-top: 5px;
+    
+}
+
+.b3top h3{
+    font-weight: 750;
 }
 
 .b3bottom{
@@ -127,22 +147,33 @@ html , body{
 .ntf{
     margin-top: 20px;
     display: flex;
-    justify-content: space-around;
-    background-color: aqua; 
+    justify-content: space-between;
+    justify-content: center;
 }
 
 .ntf #photo{
     width: 30px;
     height:30px;
     background-color: red;
+    background-image: url(https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-position: center;
+    background-size: cover;
     border-radius: 50%;
+    margin-right: 10px;
 }
 
 .ntf p{
-    width: 110px;
+    width: 90%;
+    font-size: 14px;
+}
+
+.bottom4 h3 {
+    font-weight: 750;
 }
 
 
-
-
-
+.photo2 {
+    background-image: url(https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80);
+    background-size: cover;
+    background-position: c;
+}
